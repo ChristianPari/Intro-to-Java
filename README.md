@@ -6,4 +6,4 @@ Contained within this repo is a sample project I followed along with from a walk
 11:00am - 11:15am<br>
 Installed Eclipse IDE and Java JDK, once configured simply created a new project in Eclipse and then printed to the console "Hello World!".<br>
 System.out: The `Output Stream`; appears in the console<br>
-System.out.println(): used to print to the console
+System.out.println(): used to print to the console 
