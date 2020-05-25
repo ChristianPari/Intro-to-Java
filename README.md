@@ -19,4 +19,12 @@ Spent lots of time understanding the basics and the syntaxing of Java. My code c
 - import: used to import packages into the code > import java.XXXX.XXXX;
 - Error types:
   - runtime errors: able to run the program but crashes
-  - compile errors: allows you to fix the error before it runs
+  - compile errors: allows you to fix the error before it runs<br>
+  
+  <b>May 25, 2020</b><br>
+  10:45am - 11:20am<br>
+  Practice work with different data types:
+  - Primtive: booleans, bytes, char, short, long, int, float, double
+  - Objects: instances of a class data type
+  Learned about type literals where the value is just expressed without the 'new' keyword. Also that Java is a staically typed language which means all types for the data being used needs to be declared first.<br>
+  Practice with user input via the Scanner class, assigning methods like nextLine() to a variable so that what gets inputed by the user is stored in a variable. Many different types of reading methods that Scanner allows us to use (for each primitive data type and more).<br>
