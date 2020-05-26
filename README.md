@@ -3,12 +3,14 @@ Contained within this repo is a sample project I followed along with from a walk
 
 <h2>May 24, 2020</h2><br>
 11:00am - 11:15am<br>
+
 Installed Eclipse IDE and Java JDK, once configured simply created a new project in Eclipse and then printed to the console "Hello World!".<br>
 System.out: The `Output Stream`; appears in the console<br>
 System.out.println(): used to print to the console<br>
 
 <h2>May 24, 2020</h2>
 5:45pm - 6:45pm<br>
+
 Spent lots of time understanding the basics and the syntaxing of Java. My code contains all of my notes but to sum up the brunt of the work done:<br>
 - Classes: named, have an access modifier (declares the accessibility of the class), contents within them are their members
 - Methods: declared within classes, every program MUST have a method named 'main'
@@ -46,6 +48,7 @@ Class notes:
 	
 <h2>May 25, 2020</h2>
 10:45am - 11:20am<br>
+
 Practice work with different data types:
 - Primtive: booleans, bytes, char, short, long, int, float, double
 - Objects: instances of a class data type
@@ -87,6 +90,7 @@ Class notes:
 
 <h2>May 26, 2020</h2>
 4:50am - 5:30am<br>
+
 Spent time understanding numeric expressions since they're slightly different then what I'm used to with JavaScript, actually understand what 'casting' is and learned some new terminology: unary operator, binary operator. Learned some new String methods and [created my first dynamic class](https://github.com/ChristianPari/Intro-to-Java/blob/master/Hello/src/User.java) and added some properties and a method to it to understand their uses. Syntax is pretty straightfoward.<br>
 Class notes:
 - // Numeric expressions
