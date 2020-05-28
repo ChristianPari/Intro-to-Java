@@ -32,6 +32,8 @@ public class MyFirstProgram { // classes have names, 'public' (access modifier) 
 		// how to comepare nested arrays
 		// Array.deepEquals(array1, array2); returns boolean
 		
+		// Array.fill(arrayName, value);
+		// This method fills an array with the value in every index
 				
 	}
 	
