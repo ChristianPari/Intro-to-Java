@@ -3,12 +3,14 @@ Contained within this repo is a sample project I followed along with from a walk
 
 <h2>May 24, 2020</h2><br>
 11:00am - 11:15am<br>
+
 Installed Eclipse IDE and Java JDK, once configured simply created a new project in Eclipse and then printed to the console "Hello World!".<br>
 System.out: The `Output Stream`; appears in the console<br>
 System.out.println(): used to print to the console<br>
 
 <h2>May 24, 2020</h2>
 5:45pm - 6:45pm<br>
+
 Spent lots of time understanding the basics and the syntaxing of Java. My code contains all of my notes but to sum up the brunt of the work done:<br>
 - Classes: named, have an access modifier (declares the accessibility of the class), contents within them are their members
 - Methods: declared within classes, every program MUST have a method named 'main'
@@ -20,7 +22,7 @@ Spent lots of time understanding the basics and the syntaxing of Java. My code c
   - runtime errors: able to run the program but crashes
   - compile errors: allows you to fix the error before it runs
   
-Class notes:
+Class notes, [commit link](https://github.com/ChristianPari/Intro-to-Java/commit/43280a5b4c26a82ce55a8aac59c2073a02e54a6c):
 - // every Java program needs a 'public main method'
 - // 'arguments' are what is passed into the method from a method call
 - // can access these arguments by accessing the arguments from this class (in parentheses)
@@ -46,13 +48,14 @@ Class notes:
 	
 <h2>May 25, 2020</h2>
 10:45am - 11:20am<br>
+
 Practice work with different data types:
 - Primtive: booleans, bytes, char, short, long, int, float, double
 - Objects: instances of a class data type
 Learned about type literals where the value is just expressed without the 'new' keyword. Also that Java is a staically typed language which means all types for the data being used needs to be declared first.<br>
 Practice with user input via the Scanner class, assigning methods like nextLine() to a variable so that what gets inputed by the user is stored in a variable. Many different types of reading methods that Scanner allows us to use (for each primitive data type and more).<br>
 
-Class notes:
+Class notes, [commit link](https://github.com/ChristianPari/Intro-to-Java/commit/f067d5a9bbbfb08839d9371983890bd11c8df611):
 - // To get user input
 - //System.out.println("What is your name?");
 - //Scanner scanner = new Scanner(System.in);
@@ -87,8 +90,9 @@ Class notes:
 
 <h2>May 26, 2020</h2>
 4:50am - 5:30am<br>
+
 Spent time understanding numeric expressions since they're slightly different then what I'm used to with JavaScript, actually understand what 'casting' is and learned some new terminology: unary operator, binary operator. Learned some new String methods and [created my first dynamic class](https://github.com/ChristianPari/Intro-to-Java/blob/master/Hello/src/User.java) and added some properties and a method to it to understand their uses. Syntax is pretty straightfoward.<br>
-Class notes:
+Class notes, commit links ([Main Class](https://github.com/ChristianPari/Intro-to-Java/commit/0ac4fcca81b42977572f09c18a59bf074c2d7190), [Created User Class](https://github.com/ChristianPari/Intro-to-Java/commit/fa894b58cf908cb872e8577ca4d1a1f4a1f76e15)):
 - // Numeric expressions
 - // if dividing integers, they are evaluated as whole numbers and results will be as such
 - // to get decimals; ex. 5 / 2 => 2, but (double) 5 / 2 => 2.5; cast unary operator
