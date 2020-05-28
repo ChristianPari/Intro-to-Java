@@ -1,5 +1,5 @@
 <h2>May 24, 2020</h2>
-Contained within this repo is a sample project I followed along with from a walkthrough to grow and develope my knowledge of Java (which at this current momment is none). As I go through this walkthrough I will make frequent commits that will explain the work I've done, and within this README I will document (for my own practice and for notes) what I have done in this project.<br>
+Contained within this repo is code that I wrote to learn, to grow and develope my knowledge of Java (which at this current momment is none). As I go through this step by step proccess I will make frequent commits that will explain the work I've done, and within this README I will document (for my own practice and for notes) what I have done in this project.<br>
 
 <h2>May 24, 2020</h2><br>
 11:00am - 11:15am<br>
