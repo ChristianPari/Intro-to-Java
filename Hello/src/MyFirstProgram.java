@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Arrays; // needed to use arrays
 
 //import java.util.Scanner; // built-in package from Java, needed for user input; keeps conflicts from happening
 
