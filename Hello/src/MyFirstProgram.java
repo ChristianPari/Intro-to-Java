@@ -1,4 +1,7 @@
-import java.util.Arrays; // needed to use arrays
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 //import java.util.Scanner; // built-in package from Java, needed for user input; keeps conflicts from happening
 
@@ -6,34 +9,36 @@ public class MyFirstProgram { // classes have names, 'public' (access modifier) 
 	
 	public static void main(String[] args) { // method, (parameters are within the parentheses)
 
-		// how to create an array
-		// (data type)[] arrayName = new (data type)[length of the array];
-//		int[] grades = new int[10];
-		// fill an array
-		// arrayName[index] = value;
-//		grades[0] = 10;
+		//<Data Type> is a 'generic' : a class that can work with various types
+		//How to create an array list
+		// ArrayList<Integer> arrayName = new ArrayList<Integer>();
+		//To add to the array list
+		// arrayName.add(element);
+		//To get a element from the array list
+		// arrayName.get(idx);
+		//To update an index
+		// arrayName.set(idx, element);
+		//To get array list length/size
+		// arrayName.size();
 		
-		// another way to create an array (shorthand)
-		// (data type)[] arrayName = {value1, value2, ...};
-//		int[] grades = {1, 6, 3, 8, 4, 8, 9, 5, 3};
+		//List(Interface) is used to create any list(List Implementation)
+		// List<Integer> listName = new ArrayList<Integer>();
+		//To insert elements at certain indexes
+		// listName.add(idx, element);
+		//To remove an element
+		// listname.remove(idx);
+		//To delete all elements
+		// listName.clear();
 		
-		// dynamic way of filling an array via loops
+		//To create a List from an array
+		// List<Integer> listName = Arrays.asList(4, 3, 2, 1);
+		//To make the whole ListArray a string
+		// Arrays.deepToString(listName.toArray());
 		
-		// how to print an array to the console
-//		System.out.println(Arrays.toString(arrayName));
-		// convert array to string via Arrays.toString();
-		
-		// how to print nested arrays
-//		System.out.println(Arrays.deepToString(arrayName));
-		// convert nested arrays to string via Arrays.deepToString();
-		
-		// how to compare arrays
-		// Arrays.equals(array1, array2); returns boolean
-		// how to comepare nested arrays
-		// Array.deepEquals(array1, array2); returns boolean
-		
-		// Array.fill(arrayName, value);
-		// This method fills an array with the value in every index
+		//To sort a list
+		// Collections.sort(listName);
+		//To reverse a list order
+		// Collections.reverse(listName);
 				
 	}
 	
