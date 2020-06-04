@@ -1,5 +1,16 @@
 Contained within this repo is code that I wrote to learn, to grow and develope my knowledge of Java (which at this current momment is none). As I go through this step by step proccess I will make frequent commits that will explain the work I've done, and within this README I will document (for my own practice and for notes) what I have done in this project.<br>
 
+<h2>Mat 31, 2020</h2>
+3:00pm - 3:15pm<br>
+
+Learned how to use the List Interface and create ArrayLists from this interface. Notes on this session below and found [here](https://github.com/ChristianPari/Intro-to-Java/commit/71ba462b90c7aafe6343fcaa7bc4fd700a627df1)<br>
+- Anything used between "<>" is called a 'generic', a class that can work with various data types
+- Create a list using the List<DataType> listName = new TypeList<DataType>(); a list can be editted via:
+  - add, set, remove, clear
+  - get is used to retireve a specific index from the list
+- Use the Collections class to sort a list via:
+   - sort or reverse
+
 <h2>May 28, 2020</h2>
 7:15am - 8:00am<br>
 
