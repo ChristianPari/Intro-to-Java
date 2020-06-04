@@ -1,13 +1,45 @@
-// needed for practice, no real functionality
 public class User {
-	// members - methods and properties
-	// creating a variable within a class is known as a property
+
+	private String firstName;
+	private String lastName;
 	
-	public String firstName; // created a "public" String variable and will set its value within the "main" class
-	public String lastName;
+	public String output() {
+		
+		return "Hi, my name is " + getFullName() + ".";
+		
+	}
 	
-	public String getFullName() { // a method for the User class to concat both name properties into a full name string
-		return firstName + " " + lastName;
+	// FULL NAME - GET
+	public String getFullName() {
+		
+		return getFirstName() + " " + getLastName();
+		
+	}
+	
+	// FIRST NAME - GET and SET
+	public String getFirstName() { // GETTER
+		
+		return firstName;
+		
+	}
+	
+	public void setFirstName(String fn) { // SETTER
+		
+		firstName = fn.strip();
+		
+	}
+	
+	// LAST NAME - GET and SET
+	public String getLastName() {
+		
+		return lastName;
+		
+	}
+	
+	public void setLastName(String ln) {
+		
+		lastName = ln;
+		
 	}
 	
 }
