@@ -1,6 +1,21 @@
 Contained within this repo is code that I wrote to learn, to grow and develope my knowledge of Java (which at this current momment is none). As I go through this step by step proccess I will make frequent commits that will explain the work I've done, and within this README I will document (for my own practice and for notes) what I have done in this project.<br>
 
-<h2>Mat 31, 2020</h2>
+<h2>June 3, 2020</h2>
+7:30pm - 8:00pm<br>
+
+Learned about the Java Encapsulation and the basics of how to use it:
+- Used to hide/encapsulate data
+- Mostly used with Class level variables, accessible throughout the whole class
+    - Use Getter method to get data from the variable
+    - Use Setter method to set new data within the variable
+- Can change the inner mechanics of the encapsulated variable without changing anything in the interface
+- Getter methods either RETURN data or are created as void
+- Getter methods do not have parameters
+- Setter methods do have parameters
+- Setting value from outside the class: className.setFunction(data);
+- Ensure to use the get methods within the class holding the private data types throughout the class methods to make sure that the correct data is being used throughout the class methods
+
+<h2>May 31, 2020</h2>
 3:00pm - 3:15pm<br>
 
 Learned how to use the List Interface and create ArrayLists from this interface. Notes on this session below and found [here](https://github.com/ChristianPari/Intro-to-Java/commit/71ba462b90c7aafe6343fcaa7bc4fd700a627df1)<br>
